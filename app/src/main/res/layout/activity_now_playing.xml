@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".NowPlayingActivity">
+    <ImageView
+        android:id="@+id/nowplaying_albumart"
+        style="@style/now_playing_albumart_style"
+        android:contentDescription="@string/content_description"
+        tools:src="@drawable/navi" />
+    <TextView
+        android:id="@+id/playing_song_title"
+        style="@style/playing_song_name"
+        tools:text="Lullaby"/>
+    <TextView
+        android:id="@+id/playing_song_artist"
+        style="@style/playing_song_artist"
+        tools:text="NaviBand"/>
+        <Button
+            android:id="@+id/play"
+            style="@style/play_button"
+            android:background="@drawable/ic_play_circle_outline"
+            />
+</RelativeLayout>

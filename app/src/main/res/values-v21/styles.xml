@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+    <!--ListView image item style.-->
+    <style name="list_view_image">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">96dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="song_name_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@id/album_art</item>
+        <item name="android:layout_toEndOf">@id/album_art</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin_left</item>
+        <item name="android:layout_marginStart">@dimen/text_margin_left</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+    <style name="artist_name_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/song_name</item>
+        <item name="android:layout_toRightOf">@id/album_art</item>
+        <item name="android:layout_toEndOf">@id/album_art</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin_left</item>
+        <item name="android:layout_marginStart">@dimen/text_margin_left</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+    <!--Now Playing Activity styles.-->
+    <!--ImageView NowPlaying_AlbumArt-->
+    <style name="now_playing_albumart_style">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <!--Style for Song Name TextView-->
+    <style name="playing_song_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_below">@id/nowplaying_albumart</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+    <!--Style for Song Artist TextView-->
+    <style name="playing_song_artist">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_below">@id/playing_song_title</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <!--Style for Play Button-->
+    <style name="play_button">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">96dp</item>
+        <item name="android:layout_below">@id/playing_song_artist</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+</resources>
